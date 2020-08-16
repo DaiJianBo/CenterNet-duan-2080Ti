@@ -48,7 +48,10 @@ After you create the environment, activate it.
 ```
 source activate CenterNet
 ```
-
+attention：dowmload [The suitable version](https://conda.anaconda.org/pytorch/linux-64/pytorch-1.0.0-py3.6_cuda9.0.176_cudnn7.4.1_1.tar.bz2)
+```
+conda install pytorch-1.0.0-py3.6_cuda9.0.176_cudnn7.4.1_1.tar.bz2
+```
 ## Compiling Corner Pooling Layers
 ```
 cd <CenterNet dir>/models/py_utils/_cpools/
